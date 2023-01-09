@@ -3,7 +3,7 @@ It is a project of an application supporting a healthy lifestyle.I wanted to cre
 
 ## Demo
 
-[tomaszsliwakowski.github.io/FitLifeApp/]
+tomaszsliwakowski.github.io/FitLifeApp/
 
 ## Installation
 
