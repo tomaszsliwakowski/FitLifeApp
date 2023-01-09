@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FitLifeApp/static/css/main.f4c9f0d2.css",
+    "main.js": "/FitLifeApp/static/js/main.41d347e4.js",
+    "static/js/787.71e672d5.chunk.js": "/FitLifeApp/static/js/787.71e672d5.chunk.js",
+    "static/media/baner.jpg": "/FitLifeApp/static/media/baner.da4cfd8463ce0b45b49b.jpg",
+    "index.html": "/FitLifeApp/index.html",
+    "main.f4c9f0d2.css.map": "/FitLifeApp/static/css/main.f4c9f0d2.css.map",
+    "main.41d347e4.js.map": "/FitLifeApp/static/js/main.41d347e4.js.map",
+    "787.71e672d5.chunk.js.map": "/FitLifeApp/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4c9f0d2.css",
+    "static/js/main.41d347e4.js"
+  ]
+}
