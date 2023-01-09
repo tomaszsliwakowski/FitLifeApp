@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+.main {
+  height: 100%;
+  width: 100%;
+}
+.section_baner {
+  min-height: 100vh;
+  background-image: url("../../images/baner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section_baner h2 {
+  font-family: "Moon Dance", cursive;
+  font-size: 9vw;
+  color: black;
+  padding: 0 40px;
+  border-radius: 30px;
+}
+.section_baner span {
+  position: relative;
+  top: 150px;
+}
+.section_baner span a {
+  text-decoration: none;
+  color: black;
+}
+.arrow {
+  font-size: 50px;
+  position: relative;
+  top: 60px;
+  animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.6;
+    transform: scale(1.15);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.section_baner span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section_calc_kcal {
+  min-height: 100vh;
+  background-color: silver;
+  background-image: linear-gradient(white, rgb(219, 204, 209));
+}
+
+.section_calc_bmi {
+  min-height: 90vh;
+  background-image: linear-gradient(rgb(219, 204, 209), white);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 500px) {
+  .section_baner h2 {
+    font-size: 9.5vw;
+  }
+  .section_baner span {
+    position: relative;
+    top: 180px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .section_baner h2 {
+    font-size: 8vw;
+  }
+  .section_baner span {
+    top: 150px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .section_baner h2 {
+    font-size: 7vw;
+  }
+  .section_baner span {
+    top: 100px;
+  }
+}

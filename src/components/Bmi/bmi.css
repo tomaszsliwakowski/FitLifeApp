@@ -1,0 +1,121 @@
+.bmi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.bmi form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10em;
+  gap: 40px;
+  width: 100%;
+  max-width: 850px;
+}
+.bmi form span {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.bmi form span p {
+  color: red;
+}
+.bmi form label {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.bmi form input[type="number"] {
+  width: 60%;
+  height: 50px;
+  padding: 0 20px;
+  border: 1px solid grey;
+  outline: none;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.bmi form button {
+  width: 40%;
+  height: 45px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 2px solid green;
+  background-color: white;
+  color: green;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+.bmi form button:hover {
+  background-color: green;
+  color: white;
+}
+
+.bmi_reasult {
+  margin-top: 5em;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  max-width: 850px;
+}
+
+@media screen and (max-width: 500px) {
+  .bmi form input[type="number"] {
+    width: 80%;
+  }
+  .bmi form button {
+    width: 60%;
+  }
+}
+
+.bmi_reasult span {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid silver;
+  border-radius: 20px;
+  padding: 10%;
+  width: 90%;
+  margin: 0 auto;
+}
+.bmi_reasult span label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bmi_reasult label:nth-child(1) p:nth-child(2) {
+  font-weight: bold;
+}
+
+.bmi_reasult label:nth-child(2) p:nth-child(2) {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .bmi_reasult p {
+    font-size: 24px;
+  }
+}
