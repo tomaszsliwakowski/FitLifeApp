@@ -5,6 +5,8 @@ It is a project of an application supporting a healthy lifestyle.I wanted to cre
 
 tomaszsliwakowski.github.io/FitLifeApp/
 
+https://dazzling-kitsune-605aee.netlify.app
+
 ## Installation
 
 Clone project code
